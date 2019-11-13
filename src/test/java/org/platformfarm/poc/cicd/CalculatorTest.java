@@ -10,7 +10,7 @@ public class CalculatorTest {
 
         Calculator calc = new Calculator();
         long expect = calc.add(1, 1);
-        Assert.assertEquals(2, expect);
+        Assert.assertEquals(1, expect);
 
     }
 }
