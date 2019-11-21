@@ -12,5 +12,8 @@ public class CalculatorTest {
         long expect = calc.add(1, 1);
         Assert.assertEquals(2, expect);
 
+        expect = calc.add(2, 2);
+        Assert.assertEquals(4, expect);
+
     }
 }
