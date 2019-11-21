@@ -16,4 +16,13 @@ public class CalculatorTest {
         Assert.assertEquals(4, expect);
 
     }
+
+    @Test
+    public void minus() {
+
+        Calculator calc = new Calculator();
+        long expect = calc.minus(2, 2);
+        Assert.assertEquals(0, expect);
+
+    }
 }

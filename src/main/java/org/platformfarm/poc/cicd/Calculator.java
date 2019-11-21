@@ -5,4 +5,7 @@ public class Calculator {
         return i1 + i2;
     }
 
+    public long minus(int i, int i1) {
+        return i - i1;
+    }
 }
