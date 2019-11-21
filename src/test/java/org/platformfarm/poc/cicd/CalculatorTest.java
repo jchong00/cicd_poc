@@ -21,8 +21,8 @@ public class CalculatorTest {
     public void minus() {
 
         Calculator calc = new Calculator();
-        long expect = calc.minus(2, 2);
-        Assert.assertEquals(0, expect);
+        long expect = calc.minus(3, 2);
+        Assert.assertEquals(1, expect);
 
     }
 }
